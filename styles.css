@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+
+.header {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.sketchpad {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.grid {
+    border: 5px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+}
+
+.mouse_enter {
+    background-color: black;
+}
+
+.grid_row {
+    display: flex;
+    justify-content: center;
+}
